@@ -1,1 +1,31 @@
+nano sync.sh
+chmod +x sync.sh
+ls -l sync.sh
+
+mkdir -p dirA dirB
+
+echo "This is file1 in dirA" > dirA/file1.txt
+echo "This is file2 in dirA" > dirA/file2.txt
+echo "This is file3 in dirA" > dirA/file3.txt
+echo "Same content file" > dirA/common1.txt
+echo "Different in A" > dirA/common2.txt
+
+echo "This is file4 in dirB" > dirB/file4.txt
+echo "This is file5 in dirB" > dirB/file5.txt
+echo "Same content file" > dirB/common1.txt
+echo "Different in B" > dirB/common2.txt
+echo "Unique to B" > dirB/unique_b.txt
+
+mkdir -p dirA/subdir
+mkdir -p dirB/subdir
+echo "Subdir file in A" > dirA/subdir/subfile.txt
+echo "Subdir file in B" > dirB/subdir/subfile.txt
+
+echo "Directory A contents:"
+find dirA -type f | sort
+echo ""
+echo "Directory B contents:"
+find dirB -type f | sort
+
+./sync.sh
 
