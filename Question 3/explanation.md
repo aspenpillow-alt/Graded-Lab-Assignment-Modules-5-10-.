@@ -1,6 +1,6 @@
 I created a shell script named `validate_results.sh` to process student marks from a file named `marks.txt`.
 
-The script reads each student record using a loop and checks marks for three subjects against the passing criteria of 33.I pasted the complete script and saved it; I observed that the script uses while loops to process each student record and applies conditional logic for categorization.
+The script reads each student record using a loop and checks marks for three subjects against the passing criteria of 33.I pasted the complete script and saved it - I observed that the script uses while loops to process each student record and applies conditional logic for categorization.
 
 I used conditional statements and arithmetic operations to count how many subjects each student failed.
 
