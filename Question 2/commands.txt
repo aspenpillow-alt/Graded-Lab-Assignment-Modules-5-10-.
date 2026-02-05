@@ -1,1 +1,16 @@
+nano log_analyzer.sh
+
+chmod +x log_analyzer.sh
+ls -l log_analyzer.sh
+
+nano sample.log
+
+./log_analyzer.sh sample.log
+
+ls
+cat logsummary_*.txt
+
+./log_analyzer.sh
+
+./log_analyzer.sh missing.log
 
