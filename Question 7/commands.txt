@@ -1,1 +1,16 @@
+nano patterns.sh
+
+chmod +x patterns.sh
+ls -l patterns.sh
+
+nano input.txt
+
+cat input.txt
+wc input.txt
+
+./patterns.sh
+
+cat vowels.txt
+cat consonants.txt
+cat mixed.txt
 
