@@ -1,5 +1,19 @@
+
+nano analyze.sh
+
 chmod +x analyze.sh
-./analyze.sh analyze.sh
-./analyze.sh .
+
+ls -l analyze.sh
+
+./analyze.sh
+
 ./analyze.sh invalid_path
+
+echo "hello linux" > test.txt
+./analyze.sh test.txt
+
+mkdir sample_dir
+touch sample_dir/a.txt sample_dir/b.txt sample_dir/c.log
+./analyze.sh sample_dir
+
 
