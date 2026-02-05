@@ -1,1 +1,12 @@
+nano metrics.sh
+
+chmod +x metrics.sh
+ls -l metrics.sh
+
+nano input.txt
+
+cat input.txt
+wc input.txt
+
+./metrics.sh
 
