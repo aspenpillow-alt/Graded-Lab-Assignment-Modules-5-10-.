@@ -1,1 +1,15 @@
+nano emailcleaner.sh
+
+chmod +x emailcleaner.sh
+ls -l emailcleaner.sh
+
+nano emails.txt
+
+cat emails.txt
+wc -l emails.txt
+
+./emailcleaner.sh
+
+cat valid.txt
+cat invalid.txt
 
