@@ -4,6 +4,7 @@ chmod +x bg_move.sh
 ls -l bg_move.sh
 
 mkdir testdir
+
 echo "File One" > testdir/file1.txt
 echo "File Two" > testdir/file2.txt
 echo "File Three" > testdir/file3.txt
