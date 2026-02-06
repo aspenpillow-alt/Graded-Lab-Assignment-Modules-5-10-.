@@ -2,7 +2,7 @@ I wrote a C program that creates multiple child processes using the fork() syste
 
 I allowed each child process to terminate normally after printing its process ID.
 
-I used the wait() system call in the parent process to collect the termination status of each child process.
+I used the wait() system call in the parent process to collect the exit status of each child process.
 
 I printed the process ID of each child process as it was cleaned up by the parent.
 
